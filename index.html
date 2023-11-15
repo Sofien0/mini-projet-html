@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portfolio de Sofien Belaid</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="academics.html">Parcours académiques</a></li>
+            <li><a href="experiences.html">Expériences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Bienvenue sur le Portfolio de Sofien Belaid</h2>
+        <p>Bonjour, je suis Sofien Belaid, une personne passionnée avec un vif intérêt pour le développement web.</p>
+        <img src="unnamed.jpg" alt="Photo de profil de Sofien Belaid" width="10%">
+    </section>
+
+    <section>
+        <h2>Parcours académiques</h2>
+        <p>Étant un étudiant en 3B,cette année est ma première à ESPRIT. Pendant mes deux dernières années à IPEIN (prépa Nabeul), j'ai suivi divers cours passionnants dans le domaine du
+            développement informatique.</p>
+        <ul>
+            <li>
+                <h3>Cours 1</h3>
+                <p>Description du premier cours. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <h3>Cours 2</h3>
+                <p>Description du deuxième cours. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section>
+        <h2>Expériences</h2>
+        <p>Au fil des années, j'ai acquis des expériences précieuses dans le domaine du développement web et de la
+            science des données.</p>
+        <img src="experience-image1.jpg" alt="Expérience professionnelle 1">
+        <img src="experience-image2.jpg" alt="Expérience professionnelle 2">
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="contact__heading title">Contact Me</h2>
+        <p>Vous pouvez me contacter par email à l'adresse suivante : <a href="mailto:belaid.sofiene@esprit.tn">belaid.sofiene@esprit.tn</a></p>
+        <div class="contact__wrapper wrapper--large">
+            <div class="contact__visual">
+                <img src="location.png" width="30%" >
+            </div>
+            
+            <form class="contact__form">
+                <input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
+                <input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
+                <textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
+                <input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Portfolio de Sofien Belaid. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>
